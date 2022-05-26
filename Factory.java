@@ -25,10 +25,10 @@ public class ShapeFactory {
       if(shapeType == null){
          return null;
       }
-      if(shapeType.equalsIgnoreCase("CIRCLE")){
+      if(shapeType=="CIRCLE"){
          return new Circle();
 
-      } else if(shapeType.equalsIgnoreCase("RECTANGLE")){
+      } else if(shapeType=="RECTANGLE"){
          return new Rectangle();
 
       }
